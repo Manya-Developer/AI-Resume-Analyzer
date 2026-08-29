@@ -1,0 +1,59 @@
+# =========================
+# Dataset files
+# =========================
+
+# Ignore large CSV datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+
+venv/
+.venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+
+# =========================
+# Model files
+# =========================
+
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
