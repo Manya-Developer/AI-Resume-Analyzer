@@ -57,3 +57,6 @@ models/*.pth
 
 .DS_Store
 Thumbs.db
+
+data/raw/*.docx
+data/raw/*.pdf
